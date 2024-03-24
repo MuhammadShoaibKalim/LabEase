@@ -1,0 +1,159 @@
+/* First div CSS */
+.first {
+  max-width: 1000px;
+  margin: 12px auto;
+  padding: 50px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #000; */
+}
+
+.left-home-side {
+  flex: 1;
+  color: #75dbd0;
+  padding-right: 20px;
+}
+
+.left-home-side h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.left-home-side .left-txt {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+}
+
+.left-home-side .left-btn {
+  margin-top: 20px;
+}
+
+.right-home-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-home-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Second div CSS */
+.second {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 13px 20px;
+  display: flex;
+  justify-content: space-around;
+  /* background: blue; */
+}
+
+.Tooltip {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+/* Third div CSS */
+.third {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background: red; */
+}
+
+.lightbox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.lightbox > div {
+  width: calc(25% - 20px); /* Adjust width for four items per row */
+}
+
+.a, .b, .c, .d {
+  width: 100%;
+  max-width: 230px;
+  height: 220px;
+}
+
+.a img, .b img, .c img, .d img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Fourth div CSS */
+.fourth {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background: yellowgreen; */
+}
+
+.fourth .heading {
+  font-size: 40px;
+  text-align: center;
+}
+
+.row-cols-1 .col {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+/* Fifth div CSS */
+.fifth {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background: darkcyan; */
+}
+
+.fifth .heading {
+  font-size: 40px;
+  text-align: center;
+}
+
+.fifth .row-cols-1 .col {
+  flex: 1;
+  margin-bottom: 20px;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .first {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 15px;
+  }
+
+  .right-home-side {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .left-home-side,
+  .right-home-side {
+    flex: auto;
+  }
+
+  .lightbox > div {
+    width: calc(50% - 20px); /* Adjust width for two items per row */
+  }
+}
+.custom-btn {
+  background-color: #75DBD0 !important; 
+  color: white; 
+
+}
