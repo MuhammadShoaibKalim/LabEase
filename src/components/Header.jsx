@@ -26,12 +26,13 @@ const Header = () => {
 
         <div className={`collapse navbar-collapse${isMenuOpen ? ' show' : ''}`} id="navbarSupportedContent">
           <form className="d-flex">
-            <div className="input-group" style={{ paddingLeft: '120px' }}>
+            <div className="input-group" style={{ paddingLeft: '120px',  }}>
               <input
                 className="form-control"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                style={{outline:"none"}}
               />
               <button className="btn " type="submit" >
                 <FontAwesomeIcon icon={faSearch} />
@@ -66,4 +67,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;
