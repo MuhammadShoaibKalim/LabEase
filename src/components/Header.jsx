@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import react, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
 import { MDBBtn } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 import "./header.css";
 
 const Header = () => {
@@ -13,8 +14,8 @@ const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{ backgroundColor: '#75DBD0' }}>
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#" style={{ paddingLeft: '250px', color:'#75DBD0'}}>
+      <div className="container-fluid ">
+        <a className="navbar-brand " href="#" style={{ paddingLeft: '250px', color:'#75DBD0'}}>
           Logo
         </a>
 
@@ -26,13 +27,13 @@ const Header = () => {
 
         <div className={`collapse navbar-collapse${isMenuOpen ? ' show' : ''}`} id="navbarSupportedContent">
           <form className="d-flex">
-            <div className="input-group" style={{ paddingLeft: '120px',  }}>
+            <div className="input-group input-search"  >
               <input
                 className="form-control"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-                style={{outline:"none"}}
+              
               />
               <button className="btn " type="submit" >
                 <FontAwesomeIcon icon={faSearch} />
@@ -40,18 +41,22 @@ const Header = () => {
             </div>
           </form>
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ paddingLeft: '170px' }}> 
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#" style={{ color: '#000' }}>Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#about" style={{ color: '#000' }}>About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#test" style={{ color: '#000' }}>Test</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#contact" style={{ color: '#000' }}>Contact Us</a>
-            </li>
+          <li className="nav-item">
+        <Link className="nav-link active" to="/" style={{ color: '#000' }}>Home</Link>
+      </li>
+
+      <li className="nav-item">
+        <Link className="nav-link active" to="/about" style={{ color: '#000' }}>About</Link>
+      </li>
+
+      
+      <li className="nav-item">
+        <Link className="nav-link active" to="/test" style={{ color: '#000' }}>Test</Link>
+      </li>
+
+      <li className="nav-item">
+        <Link className="nav-link active" to="/contact" style={{ color: '#000' }}>Contact Us</Link>
+      </li>
           </ul>
           <div className="d-flex flex-grow-1 justify-content-end">
             <MDBBtn className='me-1' style={{ color: '#f8f9fa', backgroundColor: '#75DBD0' }}>
@@ -67,4 +72,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;

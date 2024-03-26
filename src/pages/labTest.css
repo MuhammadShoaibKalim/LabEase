@@ -1,0 +1,15 @@
+
+
+
+ 
+.test-div-1{
+    max-width: 1000px;
+    margin: 12px auto;
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+  }
+
+

@@ -3,13 +3,14 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import logo from './../assets/LabEase Logo.png'
+import "./footer.css";
 
 const Footer = () => {
     return (
-      <MDBFooter bgColor='#75DBD0' className='text-center text-lg-start text-muted'>
+      <MDBFooter  className='text-center text-lg-start text-muted '>
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-          <div className='me-5 d-none d-lg-block'>
-            <span>Get connected with us on social networks:</span>
+          <div className='me-5 d-none d-lg-block '>
+            <span className='social-link'>Get connected with us on social networks:</span>
           </div>
   
           <div>
@@ -51,17 +52,17 @@ const Footer = () => {
                 <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Angular
+                  Booked Packages
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    React
+                  Booked Tests
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Vue
+                   My Cart
                   </a>
                 </p>
               </MDBCol>
@@ -69,18 +70,18 @@ const Footer = () => {
               <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                 <p>
-                  <a href='#!' className='text-reset'>
-                    Pricing
+                  <a href='#!' className='text-reset '>
+                   Home
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Settings
+                    About
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Orders
+                    Tests
                   </a>
                 </p>
               </MDBCol>
@@ -89,10 +90,10 @@ const Footer = () => {
                 <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                 <p>
                   <MDBIcon icon="home" className="me-2" />
-                  Block B1  Township, Lahore, Pakistan
+                  Lahore, Pakistan
                 </p>
                 <p>
-                  <MDBIcon icon="envelope" className="me-3" />
+                  <MDBIcon icon="envelope" className="me-3 " />
                   mmuhammadshoaibkalim@gmail.com
                 </p>
                 <p>
@@ -103,7 +104,7 @@ const Footer = () => {
           </MDBContainer>
         </section>
   
-        <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        <div className=' footer-copyright'>
           © {new Date().getFullYear()} Copyright:
           <a className='text-reset fw-bold' href='#!'>
             Shoaib

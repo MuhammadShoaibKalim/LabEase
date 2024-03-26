@@ -19,6 +19,7 @@ import lightbox2 from "./../assets/lightbox2.jpg";
 import lightbox3 from "./../assets/lightbox3.jpg";
 import lightbox4 from "./../assets/lightbox4.jpg";
 // import lightbox5 from './../assets/lightbox5.jpg';
+import "./layout.css";
 
 const Layout = () => {
   return (
@@ -32,8 +33,7 @@ const Layout = () => {
             </div>
             <div className="left-txt">
               <p>
-                Aliquid earum harum doloremque nemo est architecto quos nostrum
-                provident vel? Quas.
+              Streamlining Laboratory Services for your convenience . 
               </p>
             </div>
             <div className="left-btn" style={{ display: "flex", gap: "10px" }}>
@@ -251,7 +251,6 @@ const Layout = () => {
   </div>
         </div>
       </main>
-      <Footer />
     </div>
   );
 };

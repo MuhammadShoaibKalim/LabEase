@@ -1,4 +1,4 @@
-/* First div CSS */
+
 .first {
   max-width: 1000px;
   margin: 12px auto;
@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background: #000; */
+ 
 }
 
 .left-home-side {
@@ -43,14 +43,13 @@
 }
 
 
-/* Second div CSS */
 .second {
   max-width: 1000px;
   margin: 0 auto;
   padding: 13px 20px;
   display: flex;
   justify-content: space-around;
-  /* background: blue; */
+
 }
 
 .Tooltip {
@@ -60,7 +59,6 @@
 }
 
 
-/* Third div CSS */
 .third {
   max-width: 1000px;
   margin: 0 auto;
@@ -68,7 +66,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* background: red; */
+
 }
 
 .lightbox {
@@ -79,7 +77,7 @@
 }
 
 .lightbox > div {
-  width: calc(25% - 20px); /* Adjust width for four items per row */
+  width: calc(25% - 20px); 
 }
 
 .a, .b, .c, .d {
@@ -95,12 +93,12 @@
 }
 
 
-/* Fourth div CSS */
+
 .fourth {
   max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
-  /* background: yellowgreen; */
+/
 }
 
 .fourth .heading {
@@ -113,12 +111,12 @@
   margin-bottom: 20px;
 }
 
-/* Fifth div CSS */
+
 .fifth {
   max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
-  /* background: darkcyan; */
+
 }
 
 .fifth .heading {
@@ -129,8 +127,8 @@
 .fifth .row-cols-1 .col {
   flex: 1;
   margin-bottom: 20px;
-}
-/* Responsive styles */
+} */
+/* Responsive styles 
 @media screen and (max-width: 768px) {
   .first {
     flex-direction: column;
@@ -149,7 +147,7 @@
   }
 
   .lightbox > div {
-    width: calc(50% - 20px); /* Adjust width for two items per row */
+    width: calc(50% - 20px);
   }
 }
 .custom-btn {
@@ -157,3 +155,12 @@
   color: white; 
 
 }
+
+
+.input-search{
+  outline: none;
+  padding-left: 120px;
+  border: none;
+}
+
+ */

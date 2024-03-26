@@ -1,8 +1,8 @@
-import react from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import "./login.css"
+import "./profile.css"
 
-const Login = () => {
+const Profile = () => {
   return (
     <div className="profile-wrapper" style={{ maxWidth: '1000px', margin: '0 auto' }}>
       <section className="vh-100" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
@@ -63,4 +63,4 @@ const Login = () => {
   );
 }
 
-export default Login;
+export default Profile;
