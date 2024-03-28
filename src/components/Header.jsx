@@ -7,7 +7,6 @@ import "./header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -16,7 +15,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{ backgroundColor: '#75DBD0' }}>
       <div className="container-fluid ">
         <a className="navbar-brand " href="#" style={{ paddingLeft: '250px', color:'#75DBD0'}}>
-          Logo
+          LabEase 
         </a>
 
         <button className="navbar-toggler" type="button" onClick={toggleMenu}>
