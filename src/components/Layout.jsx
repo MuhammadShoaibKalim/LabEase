@@ -33,7 +33,7 @@ const Layout = () => {
             </div>
             <div className="left-txt">
               <p>
-              Streamlining Laboratory Services for your convenience . 
+                Streamlining Laboratory Services for your convenience .
               </p>
             </div>
             <div className="left-btn" style={{ display: "flex", gap: "10px" }}>
@@ -57,202 +57,216 @@ const Layout = () => {
         {/* second */}
 
         <div className="second">
-          <div className="Tooltip ">
-            <MDBTooltip
-              placement="top"
-              wrapperProps={{ color: "#75DBD0" }}
-              title="Health Pakages "
-            >
-              <ElectricBoltIcon
-                style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
-              />{" "}
-              Health Pakages
-            </MDBTooltip>
-            <MDBTooltip
-              wrapperProps={{ color: "#75DBD0", backgroundColor: "#f8f9fa" }}
-              placement="top"
-              title="Browse Tests"
-            >
-              <ElectricBoltIcon
-                style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
-              />{" "}
-              Browse Tests
-            </MDBTooltip>
-            <MDBTooltip
-              wrapperProps={{ color: "#75DBD0" }}
-              placement="top"
-              title="Upload Prescription"
-            >
-              <ElectricBoltIcon
-                style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
-              />{" "}
-              Upload Prescription
-            </MDBTooltip>
-            <MDBTooltip
-              wrapperProps={{ color: "#75DBD0" }}
-              placement="top"
-              title="Book Call"
-            >
-              <ElectricBoltIcon
-                style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
-              />{" "}
-              Book Call
-            </MDBTooltip>
-          </div>
-        </div>
-        <div className="third">
-          <div className="heading">
-            <h2>Lab Tests By Health Concerns </h2>
-          </div>
-          <div className="lightbox">
-            <div className="a">
-              <img src={lightbox1} alt="a" />
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col mb-3">
+              <MDBTooltip
+                placement="top"
+                wrapperProps={{ color: "#75DBD0" }}
+                title="Health Packages"
+              >
+                <ElectricBoltIcon
+                  style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
+                />{" "}
+                Health Packages
+              </MDBTooltip>
             </div>
-            <div className="b">
-              <img src={lightbox2} alt="b" />
+            <div className="col mb-3">
+              <MDBTooltip
+                wrapperProps={{ color: "#75DBD0", backgroundColor: "#f8f9fa" }}
+                placement="top"
+                title="Browse Tests"
+              >
+                <ElectricBoltIcon
+                  style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
+                />{" "}
+                Browse Tests
+              </MDBTooltip>
             </div>
-            <div className="c">
-              <img src={lightbox3} alt="c" />
+            <div className="col mb-3">
+              <MDBTooltip
+                wrapperProps={{ color: "#75DBD0" }}
+                placement="top"
+                title="Upload Prescription"
+              >
+                <ElectricBoltIcon
+                  style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
+                />{" "}
+                Upload Prescription
+              </MDBTooltip>
             </div>
-            <div className="d">
-              <img src={lightbox4} alt="d" />
+            <div className="col mb-3">
+              <MDBTooltip
+                wrapperProps={{ color: "#75DBD0" }}
+                placement="top"
+                title="Book Call"
+              >
+                <ElectricBoltIcon
+                  style={{ backgroundColor: "#f8f9fa", color: "#75DBD0" }}
+                />{" "}
+                Book Call
+              </MDBTooltip>
             </div>
           </div>
         </div>
-        <div className="fourth">
-  <div className="heading">
-    <h2>Frequently Booked Packages</h2>
-  </div>
-  <div className="row row-cols-1 row-cols-md-3 g-4">
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader >Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Advance Renal Pakage</MDBCardTitle>
-          <MDBBtn href="#"  className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Second Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Third Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-  </div>
-  <div className="mb-4"></div>
-  <div className="row row-cols-1 row-cols-md-3 g-4">
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Fourth Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Fifth Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-  
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Sixth Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-  </div>
 
-  <div className="mb-4"></div>
-  <div className="row row-cols-1 row-cols-md-3 g-4">
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Seventh Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
+
+
+        <div className="third">
+      <div className="heading">
+        <h2>Lab Tests By Health Concerns</h2>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-3 mb-4">
+          <img src={lightbox1} alt="a" className="img-fluid rounded-lg" />
+        </div>
+        <div className="col-6 col-md-3 mb-4">
+          <img src={lightbox2} alt="b" className="img-fluid rounded-lg" />
+        </div>
+        <div className="col-6 col-md-3 mb-4">
+          <img src={lightbox3} alt="c" className="img-fluid rounded-lg" />
+        </div>
+        <div className="col-6 col-md-3 mb-4">
+          <img src={lightbox4} alt="d" className="img-fluid rounded-lg" />
+        </div>
+      </div>
     </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Eighth Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Ninth Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-  </div>
-</div>
+
+
+        <div className="fourth">
+          <div className="heading">
+            <h2>Frequently Booked Packages</h2>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader >Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Advance Renal Pakage</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Second Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Third Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+          </div>
+          <div className="mb-4"></div>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Fourth Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Fifth Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Sixth Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+          </div>
+
+          <div className="mb-4"></div>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Seventh Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Eighth Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Ninth Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+          </div>
+        </div>
         <div className="fifth">
-         <div className="heading">
-          <h2>Frequently Booked Tests</h2>
-         </div>
-     
-  <div className="row row-cols-1 row-cols-md-3 g-4">
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Advance Renal Pakage</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Second Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-    <div className="col">
-      <MDBCard alignment="center">
-        <MDBCardHeader>Pakage</MDBCardHeader>
-        <MDBCardBody>
-          <MDBCardTitle>Third Package</MDBCardTitle>
-          <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </div>
-  </div>
+          <div className="heading">
+            <h2>Frequently Booked Tests</h2>
+          </div>
+
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Advance Renal Pakage</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Second Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+            <div className="col">
+              <MDBCard alignment="center">
+                <MDBCardHeader>Pakage</MDBCardHeader>
+                <MDBCardBody>
+                  <MDBCardTitle>Third Package</MDBCardTitle>
+                  <MDBBtn href="#" className="custom-btn">Book Now</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </div>
+          </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
 
-export default Layout;
+export default Layout; 

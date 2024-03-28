@@ -1,20 +1,14 @@
-/* .profile-div-1{
-    max-width: 1000px;
-    margin: 12px auto;
-    padding: 50px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: blueviolet;
-    height: 100%;
-  } */
+  .main {
+        backgroundColor: 'rgba(0, 0, 0, 0.05)';
+             }
+  .gradient-custom {
+       background:#70dbd0;
 
-
-
-  /*     background-color:rgba(0, 0, 0, 0.05) ; */
-
-
-  .custom-button {
-    background-color: #70dbd0;
   }
-  
+  .btn {
+    background-color: '#75DBD0';
+     padding:"8px"; 
+  }
+  /*  background: -webkit-linear-gradient(to right bottom,#70dbd0,rgba(0, 0, 0, 0.05) );
+       background: linear-gradient(to left bottom,rgba(0, 0, 0, 0.05), #70dbd0 );
+  } */

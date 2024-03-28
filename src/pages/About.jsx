@@ -1,8 +1,11 @@
-import React from 'react';
+import react from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const About = () => {
   return (
     <div className="container" style={{marginTop:120}}>
+      <Header />
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10">
           <p className="text-center mb-5" style={{ color: "#75dbd0", fontWeight: "bold", fontSize: 22 }}>
@@ -24,6 +27,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

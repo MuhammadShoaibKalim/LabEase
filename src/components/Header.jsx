@@ -59,12 +59,16 @@ const Header = () => {
       </li>
           </ul>
           <div className="d-flex flex-grow-1 justify-content-end">
-            <MDBBtn className='me-1' style={{ color: '#f8f9fa', backgroundColor: '#75DBD0' }}>
-              Cart
-            </MDBBtn>
-            <MDBBtn className='me-1' color='secondary' style={{ color: '#f8f9fa', backgroundColor: '#75DBD0' }}>
-              Profile
-            </MDBBtn>
+            <Link to ="/cart">
+                  <MDBBtn className='me-1' style={{ color: '#f8f9fa', backgroundColor: '#75DBD0' }}>
+                       Cart
+                </MDBBtn>
+             </Link>
+                  <Link to="/profile">
+                          <MDBBtn className='me-1' color='secondary' style={{ color: '#f8f9fa', backgroundColor: '#75DBD0' }}>
+                            Profile  
+                          </MDBBtn>
+                  </Link>
           </div>
         </div>
       </div>

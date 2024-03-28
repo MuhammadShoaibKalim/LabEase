@@ -11,11 +11,12 @@ import Login from './account/Login';
 import Register from './account/Register';
 import Footer from './components/Footer';
 
+
 const App = () => {
   return (
     <>
       <div>
-        <Header/>
+        {/* <Header/>  */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,12 +26,19 @@ const App = () => {
           <Route path="/profile" element={<Profile/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/login" element={<Login/>} />
-          
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
+      </div>
+      <div >
+  
+
       </div>
     </>
   );
 }
 
 export default App;
+/*
+
+
+*/ 

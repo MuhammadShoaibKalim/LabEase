@@ -1,9 +1,12 @@
-import React from 'react';
+import react from 'react';
 import { Form, Button } from 'react-bootstrap';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
-    <div className="container justify-content-center align-items-center vh-100" style={{ marginTop: 80 }}>
+    <div className="container justify-content-center align-items-center vh-100" style={{ marginTop: 80, backgroundColor:"" }}>
+     <Header/>
       <div className="row justify-content-center align-items-center">
         <div className="col-md-8 col-lg-6">
           <p className="text-center sm: mt-5" style={{ color: "#75dbd0", fontWeight: "bold", fontSize: 34, fontFamily: "cursive" }}>Contact Support</p>
@@ -40,10 +43,11 @@ const Contact = () => {
               <Form.Control as="textarea" rows={3}   />
             </Form.Group>
 
-            <Button variant="primary" type="let's talk" className="w-100 mt-5 p-2" style={{backgroundColor:"gray"}}>let's talk</Button>
+            <Button variant="primary" type="let's talk" className="w-100 mt-5 p-2" style={{backgroundColor:"#75DBD0"}}>let's talk</Button>
           </Form>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

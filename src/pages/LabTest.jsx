@@ -1,8 +1,12 @@
 import react from 'react'
 import "./labTest.css";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const LabTest = () => {
   return (
+    <div>
+    <Header/>
     <div className='test-div-1'>
       <h2>Lab Test</h2>
       <p>
@@ -15,6 +19,9 @@ const LabTest = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum alias,
          ullam dolores obcaecati nisi voluptatem magni excepturi laudantium pariatur.
       </p>
+    
+    </div>
+    <Footer/>
     </div>
   )
 }
