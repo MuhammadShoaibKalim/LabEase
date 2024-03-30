@@ -1,14 +1,21 @@
-  .main {
-        backgroundColor: 'rgba(0, 0, 0, 0.05)';
-             }
-  .gradient-custom {
-       background:#70dbd0;
+.main {
+     backgroundColor: 'rgba(0, 0, 0, 0.05)';
+    
+          }
+.gradient-custom {
+    background:#70dbd0;
 
-  }
-  .btn {
-    background-color: '#75DBD0';
-     padding:"8px"; 
-  }
-  /*  background: -webkit-linear-gradient(to right bottom,#70dbd0,rgba(0, 0, 0, 0.05) );
-       background: linear-gradient(to left bottom,rgba(0, 0, 0, 0.05), #70dbd0 );
-  } */
+}
+.btn {
+ background-color: '#75DBD0';
+  padding:"8px"; 
+}
+/*  background: -webkit-linear-gradient(to right bottom,#70dbd0,rgba(0, 0, 0, 0.05) );
+    background: linear-gradient(to left bottom,rgba(0, 0, 0, 0.05), #70dbd0 );
+} */
+
+
+
+
+
+

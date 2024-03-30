@@ -1,0 +1,25 @@
+.main{
+    background: #000;
+    width: 400px;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.home-page{
+    background-color:rgba(0, 0, 0, 0.05) ;
+    max-width: 1000px;
+    margin: 12px auto;
+    padding: 50px 25px;
+    align-items: center;
+}
+/* First div CSS */
+.first {
+    max-width: 1000px;
+    margin: 12px auto;
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 500px;
+  }

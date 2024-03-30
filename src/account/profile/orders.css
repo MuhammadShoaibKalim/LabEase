@@ -1,0 +1,165 @@
+
+.home-page{
+    background-color: rgba(0, 0, 0, 0.05) ;
+    width: 900px;
+    height: 1500px;
+    
+}
+
+.text-heading{
+    display: block;
+     margin-top: 60px; 
+     justify-content: center;
+     text-align: justify;
+     padding-left: 20px;
+     
+}
+.text-heading h3{
+    font-size: 30px;
+    font-weight: 600px;
+    padding-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-heading p{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.card{
+    width: 800px;
+    height: 450px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.cards-details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: 10px sold rgb(22, 21, 21);
+}
+
+.cards-details p{
+     padding-left: 30px;
+}
+
+.cards-details h5{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.view-btn{
+      font-size: 20px;
+      margin-left: 160px;
+      border-radius: 4%;
+      background-color: #75DBD0;
+      outline: auto;
+      padding: 20px 10px; 
+      outline: none;
+      
+}
+
+.view-btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .view-btn:hover {
+    background-color: #75DBD0;
+  }
+  
+
+  img{
+    border-radius:10% 10% 10% 10% ;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .img-details{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 20px;
+  }
+  .img-details p, h4{
+    padding-left: 30px;
+  }
+
+  .heading-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  .heading-img h4{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .task-details
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: -10px;
+    
+  }
+     .task-details h6{
+        font-weight: bold;
+     }
+  .status-check{
+    display: flex;
+    flex-direction: row;   
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+.status-check h6{
+        padding-left: 30px;
+        padding-top: 35px;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+  .products{
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    padding-top: 35px;
+    
+  }
+
+ 
+/* Fourth div CSS */
+.fourth {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background: yellowgreen; */
+  }
+  
+  .fourth .heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .row-cols-1 .col {
+    flex: 1;
+    /* Remove margin-bottom here */
+  }
+  
+  /* Add margin-bottom directly to .col elements */
+  .col {
+    margin-bottom: 20px;
+  }
+  
+/* 
+style={{ color: '', backgroundColor: '#75DBD0' }} */
