@@ -42,7 +42,6 @@ const Contact = () => {
               <Form.Label>Message</Form.Label>
               <Form.Control as="textarea" rows={3}   />
             </Form.Group>
-
             <Button variant="primary" type="let's talk" className="w-100 mt-5 p-2" style={{backgroundColor:"#75DBD0"}}>let's talk</Button>
           </Form>
         </div>
@@ -51,5 +50,4 @@ const Contact = () => {
     </div>
   );
 };
-
 export default Contact;
