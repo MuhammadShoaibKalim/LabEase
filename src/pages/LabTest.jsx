@@ -19,7 +19,11 @@ const LabTest = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum alias,
          ullam dolores obcaecati nisi voluptatem magni excepturi laudantium pariatur.
       </p>
-    
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Aspernatur iusto possimus eveniet illum, dignissimos incidunt, porro voluptatum est unde explicabo, 
+        nulla exercitationem in? Possimus dolorum quisquam, repellendus praesentium laborum sequi?
+      </p>
     
     </div>
     <Footer/>
